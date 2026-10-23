@@ -120,7 +120,6 @@ export default function Home() {
         </div>
         <div className="hero-footer">
           <span>INDEPENDENT THINKING. APPLIED ENGINEERING.</span>
-          <a href="#capabilities">Scroll to explore <span className="scroll-line" /></a>
         </div>
       </section>
 
@@ -209,7 +208,6 @@ export default function Home() {
           <p>Fields shape reality.</p>
         </div>
         <span className="footer-copyright">© 2021 Quartodonda Technologies Private Limited</span>
-        <a className="footer-top-link" href="#home">Back to top ↑</a>
       </footer>
     </main>
   );
