@@ -39,7 +39,7 @@ export default function CareerApplication() {
   }
 
   return (
-    <main className="careers-page">
+    <main className="page-flow careers-page">
       <div className="topline">
         <span className="status-dot" />
         <span>ENGINEERING AT THE INTERSECTION OF RF, RADIO & RADAR</span>
@@ -48,7 +48,7 @@ export default function CareerApplication() {
 
       <header className="nav-wrap">
         <Link className="brand" href="/" aria-label="Quartodonda home">
-          <span className="brand-mark"><Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={82} height={52} priority /></span>
+          <span className="brand-mark"><Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={82} height={61} priority /></span>
           <span className="brand-copy"><strong>QUARTODONDA</strong><small>TECHNOLOGIES</small></span>
         </Link>
         <nav className="nav-links careers-nav">
@@ -61,14 +61,12 @@ export default function CareerApplication() {
       <section className="application-shell section-shell">
         <Link className="back-link" href="/careers"><ArrowLeft size={15} /> Back to careers</Link>
         <div className="application-heading">
-          <div className="eyebrow"><span>06 / INTRODUCE YOURSELF</span><span className="eyebrow-line" /></div>
           <h1>Start with<br /><em>curiosity.</em><span className="period">.</span></h1>
           <p>Tell us a little about yourself and the kind of problems you want to solve. We review every thoughtful application.</p>
         </div>
 
         <form className="application-form" onSubmit={submitApplication}>
           <div className="form-section">
-            <p className="section-kicker">ABOUT YOU <span>— 01</span></p>
             <div className="form-grid">
               <label><span>FULL NAME *</span><input name="name" required placeholder="Your name" /></label>
               <label><span>EMAIL ADDRESS *</span><input name="email" type="email" required placeholder="you@example.com" /></label>
@@ -78,7 +76,6 @@ export default function CareerApplication() {
           </div>
 
           <div className="form-section">
-            <p className="section-kicker">YOUR DIRECTION <span>— 02</span></p>
             <div className="form-grid">
               <label><span>AREA OF INTEREST *</span>
                 <select name="role" required defaultValue="">
@@ -95,7 +92,6 @@ export default function CareerApplication() {
           </div>
 
           <div className="form-section">
-            <p className="section-kicker">YOUR RESUME <span>— 03</span></p>
             <label className="resume-upload">
               <FileText size={22} />
               <span><strong>{resumeName || "Choose your resume"}</strong><small>PDF, DOC or DOCX · 10 MB recommended maximum</small></span>
@@ -112,9 +108,9 @@ export default function CareerApplication() {
       </section>
 
       <footer className="footer section-shell">
-        <Link className="footer-brand" href="/">QUARTODONDA<span>®</span></Link>
+        <Link className="footer-brand" href="/">Quartodonda Technologies</Link>
         <p>Precision in the invisible.</p>
-        <div className="footer-right"><span>© {new Date().getFullYear()} Quartodonda Technologies Private Limited</span><Link href="/careers">Back to careers ↑</Link></div>
+        <div className="footer-right"><span>© 2021 Quartodonda Technologies Private Limited</span><Link href="/careers">Back to careers ↑</Link></div>
       </footer>
     </main>
   );

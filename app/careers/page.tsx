@@ -25,7 +25,7 @@ const opportunities = [
 
 export default function Careers() {
   return (
-    <main className="careers-page">
+    <main className="page-flow careers-page">
       <div className="topline">
         <span className="status-dot" />
         <span>ENGINEERING AT THE INTERSECTION OF RF, RADIO & RADAR</span>
@@ -34,7 +34,7 @@ export default function Careers() {
 
       <header className="nav-wrap">
         <Link className="brand" href="/" aria-label="Quartodonda home">
-          <span className="brand-mark"><Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={82} height={52} priority /></span>
+          <span className="brand-mark"><Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={82} height={61} priority /></span>
           <span className="brand-copy"><strong>QUARTODONDA</strong><small>TECHNOLOGIES</small></span>
         </Link>
         <nav className="nav-links careers-nav">
@@ -48,7 +48,6 @@ export default function Careers() {
         <Link className="back-link" href="/"><ArrowLeft size={15} /> Back to Quartodonda</Link>
         <div className="careers-hero-grid">
           <div>
-            <div className="eyebrow"><span>05 / CAREERS</span><span className="eyebrow-line" /></div>
             <h1>Build what<br /><em>travels unseen.</em><span className="period">.</span></h1>
           </div>
           <div className="careers-intro">
@@ -61,7 +60,6 @@ export default function Careers() {
 
       <section className="careers-band">
         <div className="section-shell careers-band-grid">
-          <p className="section-kicker">WHY QUARTODONDA <span>— 01</span></p>
           <div>
             <h2>Make the invisible<br /><em>matter.</em></h2>
             <p>Our work sits where engineering meets purpose: radio, radar and RF systems that need to perform beyond the lab. We value clear thinking, careful experimentation and people who want to make a meaningful contribution from day one.</p>
@@ -72,7 +70,6 @@ export default function Careers() {
       <section className="careers-opportunities section-shell">
         <div className="section-heading">
           <div>
-            <p className="section-kicker">WHERE YOU COULD CONTRIBUTE <span>— 02</span></p>
             <h2>Open fields<span className="period">.</span></h2>
           </div>
           <p className="heading-side">We welcome thoughtful applications even when a specific role is not listed.</p>
@@ -92,7 +89,6 @@ export default function Careers() {
 
       <section className="careers-cta">
         <div className="section-shell careers-cta-inner">
-          <p className="section-kicker">START A CONVERSATION <span>— 03</span></p>
           <h2>No perfect profile.<br /><em>Just real curiosity.</em></h2>
           <p>Tell us what you build, what you want to learn and where you think you can make a difference.</p>
           <Link className="button button-primary" href="/careers/apply">Start your application <ArrowRight size={17} /></Link>
@@ -100,9 +96,9 @@ export default function Careers() {
       </section>
 
       <footer className="footer section-shell">
-        <Link className="footer-brand" href="/">QUARTODONDA<span>®</span></Link>
+        <Link className="footer-brand" href="/">Quartodonda Technologies</Link>
         <p>Precision in the invisible.</p>
-        <div className="footer-right"><span>© {new Date().getFullYear()} Quartodonda Technologies Private Limited</span><Link href="/">Back to home ↑</Link></div>
+        <div className="footer-right"><span>© 2021 Quartodonda Technologies Private Limited</span><Link href="/">Back to home ↑</Link></div>
       </footer>
     </main>
   );

@@ -29,13 +29,14 @@ npm start
 
 ## Customise before publishing
 
-- The site uses `public/quartodonda-logo.png`, cropped with a white background so the full logo remains clear.
+- The site uses the cropped letterhead logo in `public/quartodonda-logo.png` with white background.
+- The logo is also available as the site favicon through the PNG icons in `public/`.
 - The `/careers` page provides a dedicated careers and applications experience.
 - The `/careers/apply` page collects applicant details and opens a prefilled email; applicants must attach their resume manually before sending.
 - Confirm the public contact email and address before publishing.
 - Review the capability descriptions with the company so they reflect services and products currently offered.
 - The contact actions currently use `mailto:`. To process messages through a form, connect a backend or form service.
-- Update the domain in metadata and add a favicon when the final domain is known.
+- Update the domain in metadata when the final domain is known.
 
 ## Company information used
 
