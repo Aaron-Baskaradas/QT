@@ -29,7 +29,9 @@ npm start
 
 ## Customise before publishing
 
-- Replace `public/quartodonda-logo.jpg` with a clean transparent PNG/SVG logo if available.
+- The site uses `public/quartodonda-logo.png`, cropped with a white background so the full logo remains clear.
+- The `/careers` page provides a dedicated careers and applications experience.
+- The `/careers/apply` page collects applicant details and opens a prefilled email; applicants must attach their resume manually before sending.
 - Confirm the public contact email and address before publishing.
 - Review the capability descriptions with the company so they reflect services and products currently offered.
 - The contact actions currently use `mailto:`. To process messages through a form, connect a backend or form service.

@@ -98,7 +98,7 @@ export default function Home() {
 
       <header className="nav-wrap">
         <a className="brand" href="#home" aria-label="Quartodonda home" onClick={closeMenu}>
-          <span className="brand-mark"><Image src="/quartodonda-logo.jpg" alt="Quartodonda Technologies logo" width={82} height={62} priority /></span>
+          <span className="brand-mark"><Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={82} height={52} priority /></span>
           <span className="brand-copy">
             <strong>QUARTODONDA</strong>
             <small>TECHNOLOGIES</small>
@@ -111,6 +111,7 @@ export default function Home() {
           <a href="#capabilities" onClick={closeMenu}>Capabilities</a>
           <a href="#approach" onClick={closeMenu}>Our approach</a>
           <a href="#company" onClick={closeMenu}>Company</a>
+          <a href="/careers" onClick={closeMenu}>Careers</a>
           <a className="nav-cta" href="#contact" onClick={closeMenu}>Get in touch <ArrowDownRight size={16} /></a>
         </nav>
       </header>
@@ -221,7 +222,7 @@ export default function Home() {
       <section className="company section-shell" id="company">
         <div className="company-visual">
           <div className="company-logo-frame">
-            <Image src="/quartodonda-logo.jpg" alt="Quartodonda Technologies logo" width={480} height={350} />
+            <Image src="/quartodonda-logo.png" alt="Quartodonda Technologies logo" width={442} height={280} />
           </div>
           <div className="company-stamp"><span>Q</span><small>FIELDS<br />SHAPE<br />REALITY</small></div>
           <span className="visual-caption">QUARTODONDA / EST. 2021</span>
